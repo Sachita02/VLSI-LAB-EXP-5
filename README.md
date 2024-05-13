@@ -38,7 +38,7 @@ Load the Bit file into the SPARTAN 6 FPGA <br>
 ![image](https://github.com/Sachita02/VLSI-LAB-EXP-5/assets/162723490/44a1620d-9e34-44a0-a1c2-02e073a12e93)
 
 ## VERILOG CODE:
-```
+
 module fsm(clk,rst,x,z);<br>
 input clk,rst,x;<br>
 output z;<br>
@@ -70,7 +70,7 @@ else<br>
 ps=ns;<br>
 assign z=(ps==s3);<br>
 endmodule<br>
-```
+
 ## OUTPUT:
 
 ![image](https://github.com/Sachita02/VLSI-LAB-EXP-5/assets/162723490/d481b251-fb24-4223-a929-2cdf83e3a629)
